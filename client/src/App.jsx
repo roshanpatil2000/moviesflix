@@ -13,7 +13,15 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
+// import ReactGA from "react-ga4";
+
 const App = () => {
+
+  // const TRACKING_ID = "UA-173607410-1";
+  //   ReactGA.initialize(TRACKING_ID);
+  //   ReactGA.send({ hitType: "pageview", page: "/" });
+
+
   const { themeMode } = useSelector((state) => state.themeMode);
 
   return (
