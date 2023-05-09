@@ -14,6 +14,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 import ReactGA from "react-ga4";
+import {Analytics} from "@vercel/analytics/react";
 
 const App = () => {
 
@@ -67,6 +68,7 @@ const App = () => {
         </Routes>
       </BrowserRouter>
       {/* app routes */}
+      <Analytics />
     </ThemeProvider>
   );
 };
